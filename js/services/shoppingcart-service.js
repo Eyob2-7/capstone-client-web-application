@@ -709,9 +709,7 @@ checkout() {
 document.addEventListener('DOMContentLoaded', () => {
 
     cartService = new ShoppingCartService();
-
     if (userService.isLoggedIn()) {
-
         cartService.loadCart();
 
     }
